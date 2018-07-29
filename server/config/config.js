@@ -1,9 +1,10 @@
 process.env.PORT = process.env.PORT || 3000//app.set('port', process.env.PORT || 3000);
 
 
-//======Entorno==============
+//======Entorno=========================================
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
-
+//=================Google clinet ID=========================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '985556997715-604q0vrrh8ujbt14pqubic77n0f3pkfa.apps.googleusercontent.com';
 
 //===========Vensimiento del token============================
 // 60 segundos
